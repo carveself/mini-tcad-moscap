@@ -1,0 +1,58 @@
+{
+  "device": {
+    "NA_cm-3": 1e+16,
+    "tox_nm": 10.0,
+    "temperature_K": 300.0,
+    "phi_ms_V": 0.0,
+    "Qox_over_q_cm-2": 0.0,
+    "ni_cm-3": 10000000000.0,
+    "Cox_F_m2": 0.0034531332469920004,
+    "Vfb_V": 0.0,
+    "phi_F_V": 0.3571585759940161,
+    "Debye_length_nm": 40.88454517739162,
+    "depletion_threshold_V": 0.8553335745242939
+  },
+  "nodes": 401,
+  "bias_points": 85,
+  "parameter_sweep_points": 585,
+  "max_cv_error_over_Cox": 5.973304974596684e-05,
+  "max_surface_error_V": 9.729408231851089e-06,
+  "max_residual_inf": 1.7549868502886312e-10,
+  "max_charge_balance_C_m2": 3.529301380600395e-13,
+  "max_bulk_displacement_C_m2": 4.3371544409329273e-11,
+  "max_classical_density_to_DOS": 0.055688180693038616,
+  "sweep_max_classical_density_to_DOS": 0.07772700631161386,
+  "classical_caution_threshold": 0.05,
+  "profile_biases_V": {
+    "Accumulation": -0.25,
+    "Depletion": 0.38490010853593226,
+    "Inversion": 1.055333574524294
+  },
+  "threshold_numeric_V": 0.8553346996632867,
+  "threshold_first_integral_V": 0.8553335745242939,
+  "depth_and_mesh_sensitivity_surface_V": 1.6988620834545998e-06,
+  "depth_study_note": "Fixed 801 nodes, depth factors 1 and 1.5; spacing also changes, so this is a combined sensitivity check",
+  "refinement": [
+    {
+      "nodes": 101,
+      "max_surface_error_V": 0.00010735856644994435,
+      "max_capacitance_error_over_Cox": 0.0007676559904998257
+    },
+    {
+      "nodes": 201,
+      "max_surface_error_V": 2.6932203078255945e-05,
+      "max_capacitance_error_over_Cox": 0.000193510084813042
+    },
+    {
+      "nodes": 401,
+      "max_surface_error_V": 6.738881642376349e-06,
+      "max_capacitance_error_over_Cox": 4.847853423147008e-05
+    },
+    {
+      "nodes": 801,
+      "max_surface_error_V": 1.6850851635163977e-06,
+      "max_capacitance_error_over_Cox": 1.2125969351216366e-05
+    }
+  ],
+  "HF_model": "DC inversion charge retained; AC electron density perturbation frozen; no frequency axis"
+}

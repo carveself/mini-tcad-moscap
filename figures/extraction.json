@@ -1,0 +1,41 @@
+{
+  "data_origin": "SYNTHETIC, not measured; independent first-integral model",
+  "seed": 20261019,
+  "noise_sigma_F_m2": 1.151044415664e-05,
+  "known_parameters": {
+    "T_K": 300.0,
+    "phi_ms_V": 0.0,
+    "Qox_over_q_cm-2": 0.0,
+    "area_normalization": "per unit area"
+  },
+  "truth": {
+    "NA_cm-3": 1.2e+16,
+    "tox_nm": 12.0,
+    "temperature_K": 300.0,
+    "phi_ms_V": 0.0,
+    "Qox_over_q_cm-2": 0.0,
+    "ni_cm-3": 10000000000.0,
+    "Cox_F_m2": 0.00287761103916,
+    "Vfb_V": 0.0,
+    "phi_F_V": 0.36187195284130813,
+    "Debye_length_nm": 37.32231274499978,
+    "depletion_threshold_V": 0.9103339563170894
+  },
+  "fit": {
+    "success": true,
+    "message": "`xtol` termination condition is satisfied.",
+    "tox_nm": 11.99424983122833,
+    "NA_cm-3": 1.2036894048038302e+16,
+    "nodes": 301,
+    "solver_evaluations": 21,
+    "reduced_chi_squared": 1.3218274135070467,
+    "RMSE_F_m2": 1.301489137535259e-05,
+    "approx_relative_1sigma_tox": 0.0015465797243540426,
+    "approx_relative_1sigma_NA": 0.004162976100561281,
+    "log_parameter_correlation": -0.5384206037094643,
+    "jacobian_condition_number": 3.335309114220952
+  },
+  "relative_error_tox": -0.0004791807309724172,
+  "relative_error_NA": 0.003074504003191869,
+  "uncertainty_note": "Local linearization, conditional on assumed model and known parameters; not a global confidence guarantee"
+}

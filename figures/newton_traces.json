@@ -1,0 +1,158 @@
+{
+  "Accumulation": [
+    {
+      "iteration": 0,
+      "residual_inf": 13.17904015006595,
+      "damping": 0.5378612769050171
+    },
+    {
+      "iteration": 1,
+      "residual_inf": 6.056911929002818,
+      "damping": 1.0
+    },
+    {
+      "iteration": 2,
+      "residual_inf": 0.023593613190759116,
+      "damping": 1.0
+    },
+    {
+      "iteration": 3,
+      "residual_inf": 0.0001498011617424022,
+      "damping": 1.0
+    },
+    {
+      "iteration": 4,
+      "residual_inf": 2.2399277599394196e-08,
+      "damping": 1.0
+    },
+    {
+      "iteration": 5,
+      "residual_inf": 1.364186541508161e-13,
+      "damping": 0.0
+    }
+  ],
+  "Depletion": [
+    {
+      "iteration": 0,
+      "residual_inf": 20.29045593663917,
+      "damping": 0.3493512115071306
+    },
+    {
+      "iteration": 1,
+      "residual_inf": 13.206246423023341,
+      "damping": 0.3967361027227972
+    },
+    {
+      "iteration": 2,
+      "residual_inf": 7.96706506545656,
+      "damping": 0.5735858788430496
+    },
+    {
+      "iteration": 3,
+      "residual_inf": 3.3972796716332505,
+      "damping": 1.0
+    },
+    {
+      "iteration": 4,
+      "residual_inf": 0.00389739153845756,
+      "damping": 1.0
+    },
+    {
+      "iteration": 5,
+      "residual_inf": 0.00017486070742169998,
+      "damping": 1.0
+    },
+    {
+      "iteration": 6,
+      "residual_inf": 2.6707144490725754e-07,
+      "damping": 1.0
+    },
+    {
+      "iteration": 7,
+      "residual_inf": 5.848151823917291e-13,
+      "damping": 0.0
+    }
+  ],
+  "Inversion": [
+    {
+      "iteration": 0,
+      "residual_inf": 55.63313420147315,
+      "damping": 0.12741499225670538
+    },
+    {
+      "iteration": 1,
+      "residual_inf": 48.54892468785742,
+      "damping": 0.11351646098315099
+    },
+    {
+      "iteration": 2,
+      "residual_inf": 43.03803595265463,
+      "damping": 0.11609108407740994
+    },
+    {
+      "iteration": 3,
+      "residual_inf": 38.04171432589454,
+      "damping": 0.12502839106673905
+    },
+    {
+      "iteration": 4,
+      "residual_inf": 33.28542051895112,
+      "damping": 0.13859972539802334
+    },
+    {
+      "iteration": 5,
+      "residual_inf": 28.672070396125726,
+      "damping": 0.15747077805889179
+    },
+    {
+      "iteration": 6,
+      "residual_inf": 24.157057053652743,
+      "damping": 0.18383536952844237
+    },
+    {
+      "iteration": 7,
+      "residual_inf": 19.716133335207978,
+      "damping": 0.22224208762740305
+    },
+    {
+      "iteration": 8,
+      "residual_inf": 15.334334347312899,
+      "damping": 0.2830914086175364
+    },
+    {
+      "iteration": 9,
+      "residual_inf": 10.992425131847858,
+      "damping": 0.40908802947046297
+    },
+    {
+      "iteration": 10,
+      "residual_inf": 6.477661292863632,
+      "damping": 1.0
+    },
+    {
+      "iteration": 11,
+      "residual_inf": 0.23525764994386106,
+      "damping": 1.0
+    },
+    {
+      "iteration": 12,
+      "residual_inf": 0.03787558714789574,
+      "damping": 1.0
+    },
+    {
+      "iteration": 13,
+      "residual_inf": 0.0020122969721313444,
+      "damping": 1.0
+    },
+    {
+      "iteration": 14,
+      "residual_inf": 6.878493337303393e-06,
+      "damping": 1.0
+    },
+    {
+      "iteration": 15,
+      "residual_inf": 8.201309076305563e-11,
+      "damping": 0.0
+    }
+  ]
+}
